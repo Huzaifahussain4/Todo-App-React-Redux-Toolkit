@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.todoContainer{
+    /* padding: 10px; */
+    /* height: 100vh; */
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.todoContenDiv{
+    box-sizing: border-box;
+    width: 40%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgb(76, 76, 76);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.todoConatiner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.taskTextDiv{
+    width: 100%;
+    padding-bottom: 15px;
+    word-wrap: break-word
+
+}
+
+.buttonsDiv{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.editBtn{
+    margin-right: 20px;
+    background-color: transparent;
+}

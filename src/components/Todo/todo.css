@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.containerTodo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.todoInputField{
+    width: 40%;
+}
+
+.submitBtn[disabled]{
+    color: rgb(128, 128, 128);
+    /* border: none; */
+}

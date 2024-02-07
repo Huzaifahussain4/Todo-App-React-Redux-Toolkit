@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.container{
+    width: 25%;
+    height: 50%;
+    background-color: rgb(76, 76, 76);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+
+.heading{
+    font-size: 36px;
+    margin: 10px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 2px 2px #1677ff;
+}
+
+.inputDivContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputLogin{
+    width: 70%;
+    height: 40px;
+    margin: 10px 0px;
+    box-shadow: 2px 2px #1677ff;
+
+}
+
+.loginBtn{
+    margin: 10px;
+    width: 70%;
+    height: 40px;
+}
